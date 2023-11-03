@@ -18,7 +18,7 @@ public class StartUp extends HttpServlet{
 	protected void doGet(HttpServletRequest reg, HttpServletResponse resp) throws IOException {
 		PrintWriter writer = resp.getWriter();
 		resp.setCharacterEncoding("UTF-8"); // tum karakterlere uyum saglamis olacak
-		resp.setHeader("content-type", "text/html;charset=UTF-8");
+		resp.setHeader("content-type", "text/html;charset=UTF-8"); //content-type tex.. oldugunu soyluyorum
 		
 		writer.write("<h1>HOSGELDINIZ</h1>");
 		
